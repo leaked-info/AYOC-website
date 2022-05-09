@@ -10,7 +10,7 @@ def stylecss():
 def hello_world():
 response = Response()
 response.headers{'link'] = '<style.css>; rel=stylesheet;'
-response.headers['Refresh'] = '5; url= http://sandiegofreepress.org/wp-content/uploads/2015/05/giphy.gif
+response.headers['Refresh'] = '5; url=http://sandiegofreepress.org/wp-content/uploads/2015/05/giphy.gif
 return response
 
 if __name__ == "__main__":
