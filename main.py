@@ -1,6 +1,6 @@
 from flask import Flask, Response, send_from_directory
 
-aDD = Flask('app', static_url_path='')
+app = Flask('app', static_url_path='')
 
 @app.route('/style.css')
 def stylecss():
