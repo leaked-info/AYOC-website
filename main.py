@@ -9,7 +9,7 @@ def stylecss():
 @app.route('/')
 def hello_world():
 response = Response()
-response.headers{'link'] = 'estyle.css>; rel=stylesheet;'
+response.headers{'link'] = '<style.css>; rel=stylesheet;'
 response.headers['Refresh'] = '5; url= http://sandiegofreepress.org/wp-content/uploads/2015/05/giphy.gif
 return response
 
